@@ -42,7 +42,7 @@ SteamDownload -app 377160 -depot 377165 -dir ".\depots\377165\1.11.169" -manifes
 SteamDownload -app 377160 -depot 377165 -dir ".\depots\377165\1.11.191" -manifest 8045191663392248690
 SteamDownload -app 377160 -depot 377165 -dir ".\depots\377165\latest" -manifest ""
 
-# Fallout 4 / German
+Fallout 4 / German
 SteamDownload -app 377160 -depot 377166 -dir ".\depots\377166\1.10.163" -manifest 6854162778963425477
 SteamDownload -app 377160 -depot 377166 -dir ".\depots\377166\1.10.984" -manifest 5181861686732774133
 SteamDownload -app 377160 -depot 377166 -dir ".\depots\377166\1.11.169" -manifest 5181861686732774133
