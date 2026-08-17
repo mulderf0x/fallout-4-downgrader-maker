@@ -3,15 +3,15 @@
 # 377161 - remove steam's installscript.vdf
 Remove-Item -Path ".\depots\377161\1.10.163\installscript.vdf"
 Remove-Item -Path ".\depots\377161\1.10.984\installscript.vdf"
-Remove-Item -Path ".\depots\377161\1.11.169\installscript.vdf"
 Remove-Item -Path ".\depots\377161\1.11.191\installscript.vdf"
+Remove-Item -Path ".\depots\377161\1.11.221\installscript.vdf"
 Remove-Item -Path ".\depots\377161\latest\installscript.vdf"
 
 # 377161 - remove duplicated / corrupted Meshes file (the good one is in 377163)
 Remove-Item -Path ".\depots\377161\1.10.163\Data\Fallout4 - Meshes.ba2"
 Remove-Item -Path ".\depots\377161\1.10.984\Data\Fallout4 - Meshes.ba2"
-Remove-Item -Path ".\depots\377161\1.11.169\Data\Fallout4 - Meshes.ba2"
 Remove-Item -Path ".\depots\377161\1.11.191\Data\Fallout4 - Meshes.ba2"
+Remove-Item -Path ".\depots\377161\1.11.221\Data\Fallout4 - Meshes.ba2"
 Remove-Item -Path ".\depots\377161\latest\Data\Fallout4 - Meshes.ba2"
 
 # 393883 & 393884 - remove duplicated files (same files are in downgraded 377163)
