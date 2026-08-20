@@ -1,6 +1,4 @@
 depots/
-output2019/
-output2024/
-output2025/
+output*/
 !depots/.gitkeep
 !output/.gitkeep
