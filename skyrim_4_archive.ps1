@@ -1,40 +1,17 @@
-function Compress-Downgrades {
-    param(
-        [string]$Version,
-        [string[]]$Exceptions,
-        [string]$OutputDirName
-    )
+& 7za a -t7z output1.6.1170\489831.7z .\depots\489831\downgrade_1.6.1170\* -m0=lzma2 -mx=5 -v481m
+& 7za a -t7z output1.6.1170\489832.7z .\depots\489832\downgrade_1.6.1170\* -m0=lzma2 -mx=5
+& 7za a -t7z output1.6.1170\489833.7z .\depots\489833\downgrade_1.6.1170\* -m0=lzma2 -mx=5
+& 7za a -t7z output1.6.1170\489834.7z .\depots\489834\downgrade_1.6.1170\* -m0=lzma2 -mx=5 -v346m
+& 7za a -t7z output1.6.1170\489835.7z .\depots\489835\downgrade_1.6.1170\* -m0=lzma2 -mx=5 -v355m
+& 7za a -t7z output1.6.1170\489836.7z .\depots\489836\downgrade_1.6.1170\* -m0=lzma2 -mx=5 -v367m
+& 7za a -t7z output1.6.1170\489837.7z .\depots\489837\downgrade_1.6.1170\* -m0=lzma2 -mx=5 -v342m
+& 7za a -t7z output1.6.1170\489838.7z .\depots\489838\downgrade_1.6.1170\* -m0=lzma2 -mx=5 -v346m
+& 7za a -t7z output1.6.1170\489839.7z .\depots\489839\downgrade_1.6.1170\* -m0=lzma2 -mx=5 -v297m
+& 7za a -t7z output1.6.1170\544860.7z .\depots\544860\downgrade_1.6.1170\* -m0=lzma2 -mx=5
+& 7za a -t7z output1.6.1170\544861.7z .\depots\544861\downgrade_1.6.1170\* -m0=lzma2 -mx=5 -v353m
 
-    Get-ChildItem -Path '.\depots' -Directory | ForEach-Object {
-        $depotId = $_.Name
-
-        # skip exceptions
-        if ($Exceptions -contains $depotId) {
-            Write-Host "Skipping ${depotId}: listed as exception (multi-volume/manual)"
-            return
-        }
-
-        # check for 'downgrade_XXXX' folder
-        $downgradeDir = Join-Path $_.FullName ("downgrade_$Version")
-        if (-not (Test-Path -Path $downgradeDir)) {
-            Write-Host "Skipping ${depotId}: no 'downgrade_$Version' folder"
-            return
-        }
-
-        # check if 'downgrade_XXXX' folder is not empty
-        $files = Get-ChildItem -Path $downgradeDir -Recurse -File -ErrorAction SilentlyContinue
-        if (-not $files -or $files.Count -eq 0) {
-            Write-Host "Skipping ${depotId}: 'downgrade_$Version' is empty"
-            return
-        }
-
-        $outFile = Join-Path ".\output${Version}" ("$depotId.7z")
-        $sourcePattern = "$downgradeDir\*"
-
-        Write-Host "Creating $Version archive for $depotId -> $outFile"
-        & 7za a -t7z $outFile $sourcePattern -m0=lzma2 -mx=5
-    }
-}
-
-Compress-Downgrades -Version '1.5.97' -Exceptions @()
-Compress-Downgrades -Version '1.6.1170' -Exceptions @()
+& 7za a -t7z output1.5.97\489831.7z .\depots\489831\downgrade_1.5.97\* -m0=lzma2 -mx=5 -v362m
+& 7za a -t7z output1.5.97\489832.7z .\depots\489832\downgrade_1.5.97\* -m0=lzma2 -mx=5 -v497m
+& 7za a -t7z output1.5.97\489833.7z .\depots\489833\downgrade_1.5.97\* -m0=lzma2 -mx=5
+& 7za a -t7z output1.5.97\544860.7z .\depots\544860\downgrade_1.5.97\* -m0=lzma2 -mx=5
+& 7za a -t7z output1.5.97\544861.7z .\depots\544861\downgrade_1.5.97\* -m0=lzma2 -mx=5 -v452m

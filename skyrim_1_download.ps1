@@ -29,14 +29,14 @@ SteamDownload -app 489830 -depot 544860 -dir ".\depots\544860\1.6.1170" -manifes
 SteamDownload -app 489830 -depot 544861 -dir ".\depots\544861\1.6.1170" -manifest 3494476046078906882
 
 # Latest = August 2026
-SteamDownload -app 489830 -depot 489831 -dir ".\depots\489831\latest" -manifest ""
-SteamDownload -app 489830 -depot 489832 -dir ".\depots\489832\latest" -manifest ""
-SteamDownload -app 489830 -depot 489833 -dir ".\depots\489833\latest" -manifest ""
-SteamDownload -app 489830 -depot 489834 -dir ".\depots\489834\latest" -manifest ""
-SteamDownload -app 489830 -depot 489835 -dir ".\depots\489835\latest" -manifest ""
-SteamDownload -app 489830 -depot 489836 -dir ".\depots\489836\latest" -manifest ""
-SteamDownload -app 489830 -depot 489837 -dir ".\depots\489837\latest" -manifest ""
-SteamDownload -app 489830 -depot 489838 -dir ".\depots\489838\latest" -manifest ""
-SteamDownload -app 489830 -depot 489839 -dir ".\depots\489839\latest" -manifest ""
-SteamDownload -app 489830 -depot 544860 -dir ".\depots\544860\latest" -manifest ""
-SteamDownload -app 489830 -depot 544861 -dir ".\depots\544861\latest" -manifest ""
+SteamDownload -app 489830 -depot 489831 -dir ".\depots\489831\latest" -manifest 3552311541133526669
+SteamDownload -app 489830 -depot 489832 -dir ".\depots\489832\latest" -manifest 1885196179801530198
+SteamDownload -app 489830 -depot 489833 -dir ".\depots\489833\latest" -manifest 8156748093655676596
+SteamDownload -app 489830 -depot 489834 -dir ".\depots\489834\latest" -manifest 3443400614252193371
+SteamDownload -app 489830 -depot 489835 -dir ".\depots\489835\latest" -manifest 8608174573130432573
+SteamDownload -app 489830 -depot 489836 -dir ".\depots\489836\latest" -manifest 2757270758137158257
+SteamDownload -app 489830 -depot 489837 -dir ".\depots\489837\latest" -manifest 1257737911412624232
+SteamDownload -app 489830 -depot 489838 -dir ".\depots\489838\latest" -manifest 6810738189465173322
+SteamDownload -app 489830 -depot 489839 -dir ".\depots\489839\latest" -manifest 2751807503705497425
+SteamDownload -app 489830 -depot 544860 -dir ".\depots\544860\latest" -manifest 5386271571563273695
+SteamDownload -app 489830 -depot 544861 -dir ".\depots\544861\latest" -manifest 4913356797939551438
