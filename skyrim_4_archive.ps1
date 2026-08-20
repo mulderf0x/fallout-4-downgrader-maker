@@ -36,4 +36,5 @@ function Compress-Downgrades {
     }
 }
 
+Compress-Downgrades -Version '1.5.97' -Exceptions @()
 Compress-Downgrades -Version '1.6.1170' -Exceptions @()
