@@ -18,6 +18,10 @@ SteamDownload -app 1946160 -depot 1946162 -dir ".\depots\1946162\1.11.137.0" -ma
 SteamDownload -app 1946160 -depot 1946161 -dir ".\depots\1946161\1.11.221.0" -manifest 5210064669056346933
 SteamDownload -app 1946160 -depot 1946162 -dir ".\depots\1946162\1.11.221.0" -manifest 8888411475612042965
 
-# 1.11.240.0 - August 2026 (latest)
+# 1.11.240.0 - August 2026 
 SteamDownload -app 1946160 -depot 1946161 -dir ".\depots\1946161\1.11.240.0" -manifest 2230858119755611597
 SteamDownload -app 1946160 -depot 1946162 -dir ".\depots\1946162\1.11.240.0" -manifest 492073522882144120
+
+# 1.11.246.0 - October 2026 (latest)
+SteamDownload -app 1946160 -depot 1946161 -dir ".\depots\1946161\1.11.246.0" -manifest 5575165157880933761
+SteamDownload -app 1946160 -depot 1946162 -dir ".\depots\1946162\1.11.246.0" -manifest 2619748491255868603

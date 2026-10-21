@@ -9,3 +9,6 @@
 
 & 7za a -t7z output1.11.221.0\1946161.7z .\depots\1946161\downgrade_1.11.221.0\* -m0=lzma2 -mx=5
 & 7za a -t7z output1.11.221.0\1946162.7z .\depots\1946162\downgrade_1.11.221.0\* -m0=lzma2 -mx=5
+
+& 7za a -t7z output1.11.240.0\1946161.7z .\depots\1946161\downgrade_1.11.240.0\* -m0=lzma2 -mx=5
+& 7za a -t7z output1.11.240.0\1946162.7z .\depots\1946162\downgrade_1.11.240.0\* -m0=lzma2 -mx=5
