@@ -4,7 +4,8 @@
 Remove-Item -Path ".\depots\489831\1.5.97\installscript.vdf"
 Remove-Item -Path ".\depots\489831\1.6.640\installscript.vdf"
 Remove-Item -Path ".\depots\489831\1.6.1170\installscript.vdf"
-Remove-Item -Path ".\depots\489831\latest\installscript.vdf"
+Remove-Item -Path ".\depots\489831\1.7.97\installscript.vdf"
+Remove-Item -Path ".\depots\489831\1.7.104\installscript.vdf"
 
 # 544860 & 544861 - remove duplicated files in v1.5.97 (same files are in 489831)
 foreach ($depot in '544860','544861') {
